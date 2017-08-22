@@ -1,0 +1,23 @@
+#include<iostream>
+
+using namespace std;
+
+int main(){
+      int x, aux;
+
+      while(x!=0){
+          cout << "Digite um numero: ";
+          cin << x;
+
+          if(aux < x){
+              aux = x;
+          }
+      }
+
+      cout << "\nO maior numero digitado foi:  " << aux;
+
+      return 0;
+
+
+}
+
